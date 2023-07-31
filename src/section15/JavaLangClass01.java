@@ -18,13 +18,11 @@ package section15;
  *            Clonable 인터페이스 상속받은 객체만 사용 가능
  */
 
-import java.util.IdentityHashMap;
-
 import section15.access1.Sports;
 
 public class JavaLangClass01 {
 	public static void main(String[] args) {
-		Sports sports1 = new Sports("수영",false);
+		Sports sports1 = new Sports("수영", false);
 		Sports sports2 = new Sports("수영", false);
 		
 		System.out.println(sports1);
